@@ -1,17 +1,21 @@
 Config = {}
-Config.Framework = "QB"
-Config.Language = "en"
+Config.Framework = "ESX"
+Config.Language = "de"
 Config.Locale = {
     ["en"] = {
         nonearby = "there's no one nearby",
         donthavejob = "You don't know how to use this",
-    }
+    },
+    ["de"] = {
+        nonearby = "Es ist niemand in der Nähe",
+        donthavejob = "Sie wissen nicht, wie Sie das verwenden sollen",
+    },
 }
 
 Config.WhitelistedJobs = {
     ["police"] = true,
-    ["sheriff"] = true,
-    ["sasp"] = true,
+    ["merryweather"] = true,
+    ["domi"] = true,
 }
 
 Config.PromilColours = {
